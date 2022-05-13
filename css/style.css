@@ -33,3 +33,34 @@ a:hover {
 
     transition: .4s;
 }
+
+table{
+    max-width:100%;
+    border-collapse:collapse;
+    text-align:center;
+    border:1px solid #00F;
+    font-size:12px;
+}
+td, tr {
+    width: 20px;
+    height: 20px;
+    background-color: #34cceb;
+}
+th {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+
+
+}
+@media all and (min-width: 1506px) {
+    table{
+        font-size: 16px;
+    }
+
+    td, tr, th{
+    width: 40px;
+    height: 40px;
+    }
+
+}
