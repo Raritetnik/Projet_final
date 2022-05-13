@@ -1,3 +1,9 @@
+body,
+html {
+    margin: 0;
+    width: 100%;
+
+}
 
 .menu {
     display: flex;
@@ -30,37 +36,24 @@ a {
 
 a:hover {
     background-color: rgb(0, 99, 99);
-
     transition: .4s;
 }
 
-table{
+.tabHeures{
     max-width:100%;
-    border-collapse:collapse;
     text-align:center;
     border:1px solid #00F;
-    font-size:12px;
+    font-size:13px;
 }
-td, tr {
-    width: 20px;
-    height: 20px;
-    background-color: #34cceb;
+
+
+.tabCartes td{
+    border: 2px solid black;
+    font-size: large;
+    padding: 10px;
+    margin: 5px;
+    background-color: tomato;
 }
-th {
-    background-color: #fff;
-    width: 20px;
-    height: 20px;
-
-
-}
-@media all and (min-width: 1506px) {
-    table{
-        font-size: 16px;
-    }
-
-    td, tr, th{
-    width: 40px;
-    height: 40px;
-    }
-
+form {
+    margin: 10px;
 }

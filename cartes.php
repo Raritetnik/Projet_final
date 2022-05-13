@@ -50,16 +50,18 @@
     }
 
     function afficherLesCartes($paquet) {
-        $once = true;
+        echo '<table class=\'tabCartes\'> <tr>';
         for($i=0; $i < count($paquet); $i++){
-            if( $i%13 == 0){
-                echo "<br><br>";
+            echo("<td>".$paquet[$i]->afficherCarte()."</td>");
+            if(($i+1)%13 == 0){
+                echo "</tr><tr>";
             }
-            echo($paquet[$i]->afficherCarte()."  ");
         }
+        echo '</tr></table>';
     }
     $paquetCartes = creationPaquet();
 
+    /*
     $paquet1 = array_slice($paquetCartes,(count($paquetCartes)/2));
     $paquet2 = array_slice($paquetCartes, 0, (count($paquetCartes)/2));
 
@@ -72,6 +74,11 @@
 
     echo ('<h2>Paquet arrangé et affiché</h2>');
     afficherLesCartes($paquetCartes);
+    */
+
+    shuffle($paquetCartes);
+    afficherLesCartes($paquetCartes);
+
     ?>
     </main>
 </body>
