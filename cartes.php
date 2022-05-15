@@ -61,21 +61,7 @@
     }
     $paquetCartes = creationPaquet();
 
-    /*
-    $paquet1 = array_slice($paquetCartes,(count($paquetCartes)/2));
-    $paquet2 = array_slice($paquetCartes, 0, (count($paquetCartes)/2));
-
-    for ($i=0; $i < count($paquet1); $i++) {
-        $paquetMelange[] = $paquet1[$i];
-        $paquetMelange[] = $paquet2[$i];
-    }
-    echo ('<h2>Paquet brassé et affiché</h2>');
-    afficherLesCartes($paquetMelange);
-
-    echo ('<h2>Paquet arrangé et affiché</h2>');
-    afficherLesCartes($paquetCartes);
-    */
-
+    /* Melanger les cartes */
     shuffle($paquetCartes);
     afficherLesCartes($paquetCartes);
 

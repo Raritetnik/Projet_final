@@ -67,7 +67,6 @@
         echo ($trouve) ?
         "<h3>Force brut de votre mot de passe a prit ".$execution_time."ms</h3>"
         : '<h3>Echec. Le mot de pass n\'a pas été decouvert...</h3>';
-
     }
 ?>
     </main>

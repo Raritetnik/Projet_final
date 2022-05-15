@@ -31,7 +31,6 @@
         $heure = explode(':',$heureUtilisateur);
     }
 
-
     if(isset($_GET['heureUtilisateur']) && !empty($heureUtilisateur)) {
         if (!preg_match($pattern, $heureUtilisateur)) {
             echo '<h3>L\'heure indiqué ne correspond pas au bon format: [heures 1 à 12:minutes 0 à 59]! Exemple: 4:23 </h3>';
