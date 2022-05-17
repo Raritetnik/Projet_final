@@ -12,8 +12,9 @@ C'est un projet de développé sur HTML, CSS et PHP. Il contient 4 pages.
 ## Installation
 Pour executer le projet, il est necessaire de demarrer un serveur local sur votre machine, comme par exemple: _XAMPP_.
 
-## Photos
-Les images sert à afficher l'installation reussit de système opérationel **Fedora** et la capacité de faire le versionnement des document par la ligne de commande GIT.
+## Guide
+Les images dans le fichier _Images_ sert à afficher l'installation reussit de système opérationel **Fedora** et la capacité de faire le versionnement des document par la ligne de commande GIT.
+![This is an image](https://i.imgur.com/rPOukrs.png)
 
 ## Support
 Pour toutes questions, contacter:+1::<br>
