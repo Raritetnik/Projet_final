@@ -12,8 +12,10 @@ C'est un projet de développé sur HTML, CSS et PHP. Il contient 4 pages.
 ## Installation
 Pour executer le projet, il est necessaire de demarrer un serveur local sur votre machine, comme par exemple: _XAMPP_.
 
-## Support
+## Photos
+Les images sert à afficher l'installation reussit de système opérationel **Fedora** et la capacité de faire le versionnement des document par la ligne de commande GIT.
 
+## Support
 Pour toutes questions, contacter:+1::<br>
 Courriel: couriel_couriel@gmail.com<br>
 Téléphone: (514) 555 - 3535<br>
